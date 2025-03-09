@@ -54,12 +54,5 @@ This portfolio is deployed using **Vercel**. To deploy:
 ├── package.json   # Project dependencies and scripts
 └── README.md      # Documentation
 ```
-
-## 📬 Contact
-- **Portfolio:** [Your Portfolio Link](#)
-- **LinkedIn:** [linkedin.com/in/rithika-kalaimani](https://www.linkedin.com/in/rithika-kalaimani-7b1a11211)
-- **GitHub:** [github.com/Rithikakalaimani](https://github.com/Rithikakalaimani)
-- **Email:** [your-email@example.com](mailto:your-email@example.com)
-
 ---
 **Made with 💙 by Rithika Kalaimani**
