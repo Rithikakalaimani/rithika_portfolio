@@ -1,3 +1,5 @@
+import {netflix,yummify,bot} from "@/public/assets";
+import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
 
@@ -14,10 +16,10 @@ const Projects = () => {
             target='_blank'
           >
             <div>
-              <img
+              <Image
                 className='w-full h-full object-contain'
-                src='/assets/images/netflix.png'
-                alt='amazonImg'
+                src={netflix}
+                alt='netflix'
               />
               <div className='absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
             </div>
@@ -64,10 +66,10 @@ const Projects = () => {
             target='_blank'
           >
             <div>
-              <img
+              <Image
                 className='w-full h-full object-contain'
-                src='/assets/images/bot.png'
-                alt='cyberImg'
+                src={bot}
+                alt='bot'
               />
               <div className='absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
             </div>
@@ -117,10 +119,10 @@ const Projects = () => {
             target='_blank'
           >
             <div>
-              <img
+              <Image
                 className='w-full h-full object-contain'
-                src="/assets/images/yummify.png"
-                alt='noorShop'
+                src={yummify}
+                alt='bot'
               />
               <div className='absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
             </div>
