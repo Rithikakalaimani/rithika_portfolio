@@ -1,38 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Rithika's Portfolio
 
-## Getting Started
+This is a **dynamic and responsive** portfolio website built using **Next.js**, **React**, **Tailwind CSS**, and **Framer Motion**. The portfolio showcases projects, skills, and contact details in an elegant and modern design.
 
-First, run the development server:
+## 📌 Features
+- 🌟 **Beautiful UI** – Clean, modern, and fully responsive design.
+- ⚡ **Fast & Optimized** – Built with Next.js for enhanced performance.
+- 🎨 **Smooth Animations** – Uses Framer Motion for engaging animations.
+- 📜 **Dark Mode Support** – A visually appealing dark mode theme.
+- 📱 **Mobile-Friendly** – Fully responsive across all devices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## 🛠️ Tech Stack
+- **Framework:** Next.js
+- **Frontend:** React.js, Tailwind CSS
+- **Animations:** Framer Motion
+- **Routing:** React Router
+- **Linting & Formatting:** ESLint, Prettier
+
+## 🚀 Installation & Setup
+Follow these steps to set up the project on your local machine:
+
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/Rithikakalaimani/rithika_portfolio.git
+cd rithika_portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Install Dependencies
+```sh
+yarn install  # or npm install
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### 3️⃣ Run the Development Server
+```sh
+yarn dev  # or npm run dev
+```
+Your portfolio will be available at: **http://localhost:3000**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🌍 Deployment
+This portfolio is deployed using **Vercel**. To deploy:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Push the latest code to GitHub.
+2. Link the repository with Vercel.
+3. Click **Deploy** and you're live! 🎉
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📂 Folder Structure
+```
+📦 rithika_portfolio
+├── 📁 components  # Reusable React components
+├── 📁 pages       # Next.js pages (index.tsx, _app.tsx, etc.)
+├── 📁 public      # Static assets (images, icons, etc.)
+├── 📁 styles      # Global styles and Tailwind config
+├── next.config.js # Next.js configuration file
+├── package.json   # Project dependencies and scripts
+└── README.md      # Documentation
+```
 
-## Learn More
+## 📬 Contact
+- **Portfolio:** [Your Portfolio Link](#)
+- **LinkedIn:** [linkedin.com/in/rithika-kalaimani](https://www.linkedin.com/in/rithika-kalaimani-7b1a11211)
+- **GitHub:** [github.com/Rithikakalaimani](https://github.com/Rithikakalaimani)
+- **Email:** [your-email@example.com](mailto:your-email@example.com)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+**Made with 💙 by Rithika Kalaimani**
