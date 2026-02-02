@@ -10,7 +10,7 @@ const projects = [
       "AI-powered movie recommendation platform using Groq LLM and TMDB API. Natural language search, Firebase auth, and Netflix-inspired UI with trailers and watchlists.",
     image: "/screenshots/NetflixGPT.png",
     github: "https://github.com/Rithikakalaimani/netflix_gpt",
-    demo: "https://netflix-gpt-roan-ten.vercel.app/",
+    demo: "https://netflix-gpt-vdpk.vercel.app/",
     tags: ["React", "TailwindCSS", "Redux", "Firebase", "Groq AI", "TMDB API"],
     featured: true,
   },
