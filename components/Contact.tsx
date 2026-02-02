@@ -26,7 +26,8 @@
 // };
 
 // export default Contact;
-import Link from "next/link";
+import { TbBrandGithub } from "react-icons/tb";
+import { SlSocialLinkedin } from "react-icons/sl";
 
 const Contact = () => {
   return (
@@ -44,11 +45,33 @@ const Contact = () => {
         my skills, feel free to reach out—I&apos;d love to connect!
       </p>
 
-      <a href='mailto:rithikakalaimani@gmail.com'>
-        <button className='w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300'>
-          Say Hello
-        </button>
-      </a>
+      <div className='flex flex-col items-center gap-6 mt-6'>
+        <a href='mailto:rithikakalaimani@gmail.com'>
+          <button className='w-40 h-14 border border-textGreen font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300'>
+            Say Hello
+          </button>
+        </a>
+        <div className='flex gap-4'>
+          <a
+            href='https://github.com/Rithikakalaimani'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='w-12 h-12 bg-hoverColor rounded-full inline-flex items-center justify-center text-2xl text-textLight hover:text-textGreen hover:-translate-y-1 transition-all duration-300'
+            title='GitHub'
+          >
+            <TbBrandGithub />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/rithika-kalaimani-s24/'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='w-12 h-12 bg-hoverColor rounded-full inline-flex items-center justify-center text-2xl text-textLight hover:text-textGreen hover:-translate-y-1 transition-all duration-300'
+            title='LinkedIn'
+          >
+            <SlSocialLinkedin />
+          </a>
+        </div>
+      </div>
     </section>
   );
 };
