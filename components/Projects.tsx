@@ -72,6 +72,16 @@ const projects = [
     tags: ["Python", "Qiskit", "LangChain", "FAISS", "Groq", "scikit-learn", "RAG"],
     featured: true,
   },
+  {
+    name: "Stitchly",
+    description:
+      "Full-stack app for tailors to manage customers, orders, billing, and design galleries. Photo-first garments, payment tracking, WhatsApp billing share, and mobile-optimized dashboard.",
+    image: "/screenshots/stitch.png",
+    github: "https://github.com/Rithikakalaimani/Stitchly",
+    demo: "https://stitchinv.vercel.app/",
+    tags: ["React", "Vite", "Node.js", "Express", "MongoDB"],
+    featured: true,
+  },
 ];
 
 const ProjectCard = ({
